@@ -8,7 +8,7 @@ github.com/Azure/go-ansiterm/winterm
 github.com/Microsoft/go-winio
 # github.com/containerd/continuity v0.0.0-20181203112020-004b46473808
 github.com/containerd/continuity/pathdriver
-# github.com/docker/distribution v0.0.0-20200319173657-742aab907b54
+# github.com/docker/distribution v2.8.2-beta.1+incompatible
 ## explicit
 github.com/docker/distribution/digestset
 github.com/docker/distribution/reference
@@ -58,6 +58,8 @@ github.com/fsouza/go-dockerclient/internal/term
 github.com/gogo/protobuf/proto
 # github.com/golang/protobuf v1.3.3
 github.com/golang/protobuf/proto
+# github.com/google/go-cmp v0.3.0
+## explicit
 # github.com/google/go-containerregistry v0.0.0-20190214194807-bada66e31e55
 ## explicit
 github.com/google/go-containerregistry/pkg/authn
@@ -80,9 +82,12 @@ github.com/google/go-github/github
 # github.com/google/go-querystring v1.0.0
 ## explicit
 github.com/google/go-querystring/query
+# github.com/gorilla/mux v1.7.2
+## explicit
 # github.com/ijc/Gotty v0.0.0-20170406111628-a8b993ba6abd
 github.com/ijc/Gotty
 # github.com/inconshreveable/mousetrap v1.0.0
+## explicit
 github.com/inconshreveable/mousetrap
 # github.com/konsorten/go-windows-terminal-sequences v1.0.1
 github.com/konsorten/go-windows-terminal-sequences
@@ -123,7 +128,12 @@ github.com/spf13/cobra
 # github.com/spf13/pflag v1.0.3
 ## explicit
 github.com/spf13/pflag
+# github.com/stretchr/testify v1.3.0
+## explicit
+# golang.org/x/crypto v0.0.0-20200128174031-69ecbb4d6d5d
+## explicit
 # golang.org/x/net v0.0.0-20190619014844-b5b0513f8c1b
+## explicit
 golang.org/x/net/context
 golang.org/x/net/context/ctxhttp
 golang.org/x/net/internal/socks
@@ -148,5 +158,7 @@ google.golang.org/appengine/internal/remote_api
 google.golang.org/appengine/internal/urlfetch
 google.golang.org/appengine/urlfetch
 # google.golang.org/grpc v1.28.1
+## explicit
+# gopkg.in/check.v1 v1.0.0-20141024133853-64131543e789
 ## explicit
 # golang.org/x/sys => golang.org/x/sys v0.0.0-20190830141801-acfa387b8d69
