@@ -13,9 +13,12 @@ jobs:
         # Add more test cases here as necessary
         args:
           - vanessa/salad --type=file --output=./data.json --json
+          - daemon://vanessa/salad --type=file --output=./data.json --json
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Pull test images
+        run: docker pull vanessa/salad
       - name: Run container-diff
         uses: ./actions
         with:
